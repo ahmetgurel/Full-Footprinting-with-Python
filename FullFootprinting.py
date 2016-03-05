@@ -22,7 +22,7 @@ print "Adresi girerken başına www. Kullanmayınız."
 domain_name = raw_input("Domain adresi=")
 
 
-		#HTTP FINGERPRINTING SCRIPT
+
 print(" \n \n ***** HTTP Banner Grabbing ***** \n")
 remoteServer2="http://www."+domain_name
 c = urllib2.urlopen(remoteServer2)
