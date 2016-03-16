@@ -4,5 +4,5 @@ Http Banner Grabbing bilgisi,whois kayıtları,port taraması ve açık portlard
 
 <b> Projede Yapılan Değişiklikler: </b>
 
-1.Hafta:Domain adresi girildiğinda HTTP Banner Grabbing bilgisini veren kod  blogu eklenmiştir.
-</br>2.Hafta:Domain adresi girildiğinde whois bilgilerini çekip ekrana getiren kod blogu eklenmiştir.
+<b>1.Hafta:</b>Domain adresi girildiğinda HTTP Banner Grabbing bilgisini veren kod  blogu eklenmiştir.
+</br><b>2.Hafta:</b>Domain adresi girildiğinde whois bilgilerini çekip ekrana getiren kod blogu eklenmiştir.
