@@ -9,6 +9,9 @@ try:
 	import urllib2
 	import whois
 	import socket
+	import theHarvester
+	import argparse
+	
 
 
 
@@ -88,7 +91,15 @@ c = urllib2.urlopen(remoteServer2)
 print c.info()
 print c.getcode()
 
+	#Sitenin Indexlenen Mail Adresleri#
+print(" \n \n ***** Sitenin Indexlenen Mail Adresleri ***** \n")
+sorgu='-d '+ domain_name + ' -b google -l 500'
+sorgu=sorgu.split()
+sonuc=theHarvester.start(sorgu)
+for emails in sonuc:
+        print emails
 
-print(" \n \n ***** WHOİS***** \n")
+
+print(" \n \n ***** Sitenin WHOİS Bilgileri***** \n")
 print get_whois_data(domain_name)
 
